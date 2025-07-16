@@ -1,0 +1,33 @@
+kin2-divine-legacy/
+├── mobile/
+│   ├── App.js
+│   ├── src/HealingRituals.js
+│   └── package.json
+├── web/
+│   ├── src/SoulMeshMap.js
+│   ├── src/IndigenousRituals.js
+│   └── package.json
+├── backend/
+│   ├── src/index.js
+│   ├── prisma/schema.prisma
+│   └── package.json
+├── ai-microservice/
+│   ├── main.py
+│   └── requirements.txt
+├── blockchain/
+│   ├── contracts/SoulToken.sol
+│   ├── scripts/deploy.js
+│   └── hardhat.config.js
+├── deploy/
+│   ├── vercel.json
+│   ├── aws-config/elastic-beanstalk.json
+│   └── cloudflare-workers.js
+├── docs/
+│   ├── kin2-possibilities.pdf
+│   ├── indigenous-healing-guide.pdf
+│   ├── micro-shrine-guide.pdf
+│   ├── welcome-indigenous.wav
+│   ├── promo-video-with-music.mp4
+│   └── pitch-deck.pptx
+├── kin2DivineLegacyStack.js
+└── README.md
