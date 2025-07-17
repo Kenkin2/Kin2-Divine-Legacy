@@ -1,0 +1,26 @@
+{
+  "name": "kin2-divine-legacy-mobile",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "build": "react-native bundle --platform ios --dev false --entry-file App.js --bundle-output ios/main.jsbundle"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
+    "react-native-webrtc": "^1.100.0",
+    "react-native-video": "^5.2.0",
+    "i18next": "^23.0.0",
+    "react-native-webxr": "^0.1.0",
+    "react-native-dji-mobile-sdk": "^3.0.0",
+    "react-mermaid2": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "metro-react-native-babel-preset": "^0.73.0"
+  }
+}
