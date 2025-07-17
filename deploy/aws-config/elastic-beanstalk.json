@@ -1,0 +1,16 @@
+{
+  "EnvironmentName": "kin2-backend",
+  "SolutionStackName": "64bit Amazon Linux 2 v5.8.0 running Node.js 16",
+  "OptionSettings": [
+    {
+      "Namespace": "aws:autoscaling:asg",
+      "OptionName": "MinSize",
+      "Value": "2"
+    },
+    {
+      "Namespace": "aws:autoscaling:asg",
+      "OptionName": "MaxSize",
+      "Value": "4"
+    }
+  ]
+}
